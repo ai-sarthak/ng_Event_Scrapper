@@ -1,11 +1,8 @@
+streamlit
 requests
 beautifulsoup4
-json
-re
 openpyxl
-pandas 
-urllib
-os
+pandas
 selenium
-dotenv
-google.generativeai
+python-dotenv
+google-generativeai
