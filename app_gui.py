@@ -1,3 +1,16 @@
+import subprocess
+import sys
+
+required_packages = ['beautifulsoup4']
+for package in required_packages:
+    try:
+        __import__(package)
+    except ImportError:
+        subprocess.check_call([sys.executable, "-m", "pip", "install", package])
+
+
+
+
 import streamlit as st
 import requests
 from bs4 import BeautifulSoup
@@ -8,6 +21,9 @@ from urllib.parse import urlparse
 import pandas as pd
 from datetime import datetime, timedelta
 from io import BytesIO
+
+
+
 
 # Function to parse event text
 def parse_event_text(event_text):
