@@ -1,5 +1,5 @@
 requests
-beautifulsoup
+beautifulsoup4
 json
 re
 openpyxl
@@ -9,4 +9,3 @@ os
 selenium
 dotenv
 google.generativeai
-bs4
