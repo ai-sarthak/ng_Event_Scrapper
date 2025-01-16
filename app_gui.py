@@ -1,13 +1,3 @@
-import subprocess
-import sys
-
-required_packages = ['beautifulsoup4']
-for package in required_packages:
-    try:
-        __import__(package)
-    except ImportError:
-        subprocess.check_call([sys.executable, "-m", "pip", "install", package])
-
 
 
 
