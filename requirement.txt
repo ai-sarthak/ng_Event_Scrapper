@@ -1,0 +1,11 @@
+requests
+beautifulsoup
+json
+re
+openpyxl
+pandas 
+urllib
+os
+selenium
+dotenv
+google.generativeai
